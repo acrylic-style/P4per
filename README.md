@@ -1,7 +1,7 @@
 Paper [![Build Status](https://papermc.io/ci/job/Paper-1.15/badge/icon)](https://papermc.io/ci/job/Paper-1.15/)
 ===========
 
-High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.
+High performance Paper fork that aims to improve server performance.
 
 
 **Support and Project Discussion:**
@@ -12,12 +12,11 @@ How To (Server Admins)
 ------
 Paperclip is a jar file that you can download and run just like a normal jar file.
 
-Download Paper from our [downloads page](https://papermc.io/downloads).
+<!--Download Paper from our [downloads page](https://papermc.io/downloads).-->
 
 Run the Paperclip jar directly from your server. Just like old times
 
   * Documentation on using Paper: [paper.readthedocs.io](https://paper.readthedocs.io/)
-  * For a sneak peak on upcoming features, [see here](https://github.com/PaperMC/Paper/projects)
 
 How To (Plugin Developers)
 ------
@@ -27,15 +26,15 @@ How To (Plugin Developers)
  * Maven Repo (for paper-api):
 ```xml
 <repository>
-    <id>papermc</id>
-    <url>https://papermc.io/repo/repository/maven-public/</url>
+    <id>p4per</id>
+    <url>https://repo2.acrylicstyle.xyz/</url>
 </repository>
 ```
  * Artifact Information:
 ```xml
 <dependency>
-    <groupId>com.destroystokyo.paper</groupId>
-    <artifactId>paper-api</artifactId>
+    <groupId>com.destroystokyo.p4per</groupId>
+    <artifactId>p4per-api</artifactId>
     <version>1.15.2-R0.1-SNAPSHOT</version>
     <scope>provided</scope>
  </dependency>
