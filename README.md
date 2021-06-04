@@ -1,7 +1,7 @@
 Paper ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/PaperMC/Paper/Build%20Paper/master)
 ===========
 
-High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.
+High performance Paper fork that aims to improve server performance.
 
 
 **Support and Project Discussion:**
@@ -12,30 +12,30 @@ How To (Server Admins)
 ------
 Paperclip is a jar file that you can download and run just like a normal jar file.
 
-Download Paper from our [downloads page](https://papermc.io/downloads).
+<!--Download Paper from our [downloads page](https://papermc.io/downloads).-->
 
 Run the Paperclip jar directly from your server. Just like old times
 
   * Documentation on using Paper: [paper.readthedocs.io](https://paper.readthedocs.io/)
-  * For a sneak peak on upcoming features, [see here](https://github.com/PaperMC/Paper/projects)
 
 How To (Plugin Developers)
 ------
  * See our API patches [here](Spigot-API-Patches)
  * See upcoming, pending, and recently added API [here](https://github.com/PaperMC/Paper/projects/6)
  * Paper API javadocs here: [papermc.io/javadocs](https://papermc.io/javadocs/)
+<!--
  * Maven Repo (for paper-api):
 ```xml
 <repository>
-    <id>papermc</id>
-    <url>https://papermc.io/repo/repository/maven-public/</url>
+    <id>p4per</id>
+    <url>https://repo2.acrylicstyle.xyz</url>
 </repository>
 ```
  * Artifact Information:
 ```xml
 <dependency>
-    <groupId>com.destroystokyo.paper</groupId>
-    <artifactId>paper-api</artifactId>
+    <groupId>com.destroystokyo.p4per</groupId>
+    <artifactId>p4per-api</artifactId>
     <version>1.16.5-R0.1-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
@@ -47,16 +47,17 @@ How To (Plugin Developers)
 ```groovy
 repositories {
     maven {
-        url 'https://papermc.io/repo/repository/maven-public/'
+        url 'https://repo2.acrylicstyle.xyz/'
     }
 }
 ```
  * Artifact:
 ```groovy
 dependencies {
-    compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
+    compileOnly 'com.destroystokyo.p4per:p4per-api:1.16.5-R0.1-SNAPSHOT'
 }
 ```
+-->
 
 How To (Compiling Jar From Source)
 ------
